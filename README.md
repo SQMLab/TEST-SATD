@@ -27,13 +27,13 @@ While prior research has primarily focused on production code, this study presen
 
 ### 2. Comment Data
 
-| Dataset                           | Description | File(s)                                                                                                                  |
-|-----------------------------------|--------------|--------------------------------------------------------------------------------------------------------------------------|
-| **All Extracted Comments**        | Full raw extracted comments (merged from line, block, and Javadoc) | [comment.zip](./data/comment.zip)                                                                                        |
-| **Detection Sets (Original)**     | 80/20 split preserving natural duplication | [train.csv](./data/duplicate_detect_train.csv), [test.csv](./data/duplicate_detect_test.csv)                             |
-| **Detection Sets (Deduplicated)** | 80/20 split after duplicate removal | [train.csv](./data/unique_detect_train.csv), [test.csv](./data/unique_detect_test.csv)                                   |
-| **Labeled SATD Comments**         | Manually classified SATD | [satd comments.csv](./data/duplicate_satd_comment.csv), [deduplicated satd comments.csv](./data/unique_satd_comment.csv) |
-| **Few-Shot Samples**              | Used for n-shot | [n-shots.csv](./data/detect_n_shot.csv)                                                                                  |
+| Dataset                           | Description                                                   | File(s)                                                                                                                  |
+|-----------------------------------|---------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| **All Extracted Comments**        | All extracted comments (merged from line, block, and Javadoc) | [comment.zip](./data/comment.zip)                                                                                        |
+| **Detection Sets (Original)**     | 80/20 split preserving natural duplication                    | [train.csv](./data/duplicate_detect_train.csv), [test.csv](./data/duplicate_detect_test.csv)                             |
+| **Detection Sets (Deduplicated)** | 80/20 split after duplicate removal                           | [train.csv](./data/unique_detect_train.csv), [test.csv](./data/unique_detect_test.csv)                                   |
+| **Labeled SATD Comments**         | Manually classified SATD                                      | [satd comments.csv](./data/duplicate_satd_comment.csv), [deduplicated satd comments.csv](./data/unique_satd_comment.csv) |
+| **Few-Shot Samples**              | Used for n-shot                                               | [n-shots.csv](./data/detect_n_shot.csv)                                                                                  |
 
 ### 3. Dataset Summary
 - Total comments: **47,994**  
